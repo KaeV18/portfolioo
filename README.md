@@ -26,6 +26,7 @@ Empty image fields render the gray placeholder.
 - Sidebar (`components/Sidebar.tsx`) is shared by every page via `app/layout.tsx`
 - Colors, type, layout: `app/globals.css` (tokens at the top)
 - Fonts: Satoshi (local, `public/fonts`), Libre Baskerville for the name
+- 
 
 ## Deploy
 Push to GitHub, import in Vercel (or Cloudflare Pages). Build command `npm run build`, output `out`.
